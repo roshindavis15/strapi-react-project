@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_testimonial_items",
+  "info": {
+    "displayName": "testimonialItem"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

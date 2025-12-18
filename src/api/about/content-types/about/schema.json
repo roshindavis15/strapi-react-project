@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": "Write about yourself and the content you create"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "experienceYears": {
+      "type": "integer"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "aboutlist": {
+      "type": "component",
+      "component": "about-list-item.about-list-item",
+      "repeatable": true
+    },
+    "whyChooseUs": {
+      "type": "component",
+      "component": "why-choose-us.why-choose-us",
+      "repeatable": false
+    },
+    "testimonialItem": {
+      "type": "component",
+      "component": "shared.testimonial-item",
+      "repeatable": true
+    }
+  }
+}

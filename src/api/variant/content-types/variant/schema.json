@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "variants",
+  "info": {
+    "singularName": "variant",
+    "pluralName": "variants",
+    "displayName": "variant"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sku": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    },
+    "salePrice": {
+      "type": "string"
+    },
+    "stock": {
+      "type": "integer"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "integer"
+    }
+  }
+}

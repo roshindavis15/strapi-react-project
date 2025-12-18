@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customers",
+  "info": {
+    "singularName": "customerlist",
+    "pluralName": "customers",
+    "displayName": "Customers"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "phone": {
+      "type": "integer",
+      "required": true
+    },
+    "password": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "refreshToken": {
+      "type": "string"
+    }
+  }
+}

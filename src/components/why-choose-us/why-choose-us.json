@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_why_choose_us_why_chooseuses",
+  "info": {
+    "displayName": "whyChooseUs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sinceYear": {
+      "type": "biginteger"
+    },
+    "circularText": {
+      "type": "string"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "items": {
+      "type": "component",
+      "component": "items.items",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

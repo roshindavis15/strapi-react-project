@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_missions",
+  "info": {
+    "singularName": "our-mission",
+    "pluralName": "our-missions",
+    "displayName": "Our-mission"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "string"
+    },
+    "highlightedWord": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "videoLabel": {
+      "type": "string"
+    },
+    "videoUrl": {
+      "type": "string"
+    },
+    "featuresTitle": {
+      "type": "text"
+    },
+    "featuresDescriptions": {
+      "type": "text"
+    },
+    "isActive": {
+      "type": "boolean"
+    }
+  }
+}

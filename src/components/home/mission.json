@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_home_missions",
+  "info": {
+    "displayName": "mission"
+  },
+  "options": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "string"
+    },
+    "highlightedWord": {
+      "type": "string"
+    },
+    "videoLabel": {
+      "type": "string"
+    },
+    "videoUrl": {
+      "type": "string"
+    },
+    "featuresTitle": {
+      "type": "string"
+    },
+    "featuresDescriptions": {
+      "type": "text"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "isActive": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}
